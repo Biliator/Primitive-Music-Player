@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hudebni_prehravac</string>
+
+    <!-- Activity Main -->
+    <string name="nav_library_music">Skladby</string>
+    <string name="nav_album">Album</string>
+    <string name="nav_folders">Slozky</string>
+</resources>
