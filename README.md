@@ -12,6 +12,7 @@ This is a primitive music player for Android. It detects MP3 files in a phone an
 
 Main Layout showcase activity with all songs on phone. The second layout shows auto-generated albums. And the third shows what the player looks like.
 
+<img src="https://github.com/Biliator/Rocnikovy-projekt/blob/main/img3.jpg" width="100">
 <div style="display: flex; justify-content: center;">
     <img src="img1.jpg" alt="Image 1" style="max-width: 50px; margin-right: 10px;">
     <img src="img2.jpg" alt="Image 2" style="max-width: 50px; margin-right: 10px;">
