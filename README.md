@@ -33,7 +33,7 @@ The app allows users to edit MP3 files as he/she wants. Another option is to add
 
 ## 🛠️ Prerequisites
 
-This app is very old. It is recommended to test it with jdk-15 and beloved. Although I upgraded this app in 2024, originally it was created in 2017, so it might not work on every device. It had a problem with detecting MP3 files.
+This app is very old. It is recommended to test it with jdk-15 and beloved. It was created in 2017, so it might not work on every device. It had a problem with detecting MP3 files.
 
 ## ⚖️ License
 
