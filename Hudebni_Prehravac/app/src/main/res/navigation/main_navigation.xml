@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/nav_music">
+
+    <fragment
+        android:id="@+id/nav_music"
+        android:name="com.example.hudebni_prehravac.fragments.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" >
+        <action
+            android:id="@+id/action_nav_music_to_playerFragment"
+            app:destination="@id/playerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_album"
+        android:name="com.example.hudebni_prehravac.fragments.AlbumFragment"
+        android:label="fragment_album"
+        tools:layout="@layout/fragment_album" >
+        <action
+            android:id="@+id/action_nav_album_to_albumDetailsFragment"
+            app:destination="@id/albumDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_playlist"
+        android:name="com.example.hudebni_prehravac.fragments.PlaylistFragment"
+        android:label="fragment_playlist"
+        tools:layout="@layout/fragment_playlist" >
+        <action
+            android:id="@+id/action_nav_playlist_to_playlistDetailsFragment"
+            app:destination="@id/playlistDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerFragment"
+        android:name="com.example.hudebni_prehravac.fragments.PlayerFragment"
+        android:label="fragment_player"
+        tools:layout="@layout/fragment_player" />
+    <fragment
+        android:id="@+id/albumDetailsFragment"
+        android:name="com.example.hudebni_prehravac.fragments.AlbumDetailsFragment"
+        android:label="fragment_album_details"
+        tools:layout="@layout/fragment_album_details" >
+        <action
+            android:id="@+id/action_albumDetailsFragment_to_playerFragment"
+            app:destination="@id/playerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playlistDetailsFragment"
+        android:name="com.example.hudebni_prehravac.fragments.PlaylistDetailsFragment"
+        android:label="fragment_playlist_details"
+        tools:layout="@layout/fragment_playlist_details" >
+        <action
+            android:id="@+id/action_playlistDetailsFragment_to_playerFragment"
+            app:destination="@id/playerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="com.example.hudebni_prehravac.fragments.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_playerFragment"
+            app:destination="@id/playerFragment" />
+    </fragment>
+</navigation>

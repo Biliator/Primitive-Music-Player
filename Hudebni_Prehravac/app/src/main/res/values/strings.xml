@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Hudebni_Prehravac</string>
+
+    <!-- Main Activity -->
+    <string name="nav_music">MUSIC</string>
+    <string name="nav_album">ALBUM</string>
+    <string name="nav_playlist">PLAYLIST</string>
+    <string name="nav_fav">FAVORITE</string>
+
+    <!-- Music Fragment -->
+    <string name="menu_search">search music</string>
+    <string name="menu_item_filters">filter</string>
+
+    <!-- Playlist Fragment -->
+    <string name="menu_add">Add playlist</string>
+    <string name="menu_delete_playlist">delete</string>
+    <string name="menu_rename_playlist">rename</string>
+    <string name="txt_dialog_playlist_title">Choose playlist</string>
+    <string name="txt_add_new_playlist">New playlist</string>
+    <string name="btn_add">add</string>
+    <string name="txt_new_name">New Name</string>
+
+    <!-- Favorite Fragment -->
+    <string name="txt_fav">Favorite</string>
+
+    <!-- Music Menu -->
+    <string name="menu_delete">delete</string>
+    <string name="menu_rename">rename</string>
+    <string name="menu_details">details</string>
+    <string name="menu_set_ringtone">ringtone</string>
+    <string name="menu_add_to_playlist">add to playlist</string>
+    <string name="menu_add_to_fav">add to favorite</string>
+    <string name="menu_share">share</string>
+    <string name="menu_queue">remove to queue</string>
+    <string name="menu_change_cover">change cover</string>
+
+    <!-- Dialog Filter -->
+    <string name="txt_title_filter">Filters</string>
+    <string name="txt_abc_music">Music alphabet</string>
+    <string name="btn_dialog_filter_accept">accept</string>
+    <string name="rbtn_a_z">A - Z</string>
+    <string name="rbtn_z_a">Z - A</string>
+
+    <!-- Dialog Details -->
+    <string name="txt_details">Details</string>
+    <string name="txt_song_name_title">Name</string>
+    <string name="txt_album_title">Album</string>
+    <string name="txt_duration_title">Duration</string>
+    <string name="txt_size_title">Size</string>
+
+    <!-- Dialog Rename -->
+    <string name="edit_txt_new_title">Enter new name</string>
+
+    <!-- Dialog Delete -->
+    <string name="txt_delete_title">Are you sure you want to delete this song?</string>
+
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_rename">rename</string>
+    <string name="btn_delete">delete</string>
+
+    <string name="txt_nothing">Nothing here!</string>
+</resources>

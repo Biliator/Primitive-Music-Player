@@ -1,0 +1,7 @@
+Telefon pro aplikaci jsem si půjčil od Paní Odehnalový. 
+
+Nejdřív se vezme app-debug.apk a přesune z pc na telefon do složky Download. Poté se musí aplikace vyhledat a nainstalovat. Poté otevřít a povolit oprávnění. Pokud by se oprávnění odmítlo, je zapotřebí jít do nastavení -> správce aplikací -> najít aplikaci -> správce oprávnění -> povolit vše.
+
+Poté je nutné přesunout i hudbu z pc na mobil do složky Music.
+
+Nakonec i nějaké obrázky pro testování do složky DCIM.
